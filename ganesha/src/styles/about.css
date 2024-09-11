@@ -1,0 +1,158 @@
+/* General Styles */
+.about-us {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .hero-section {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    filter: brightness(0.7);
+  }
+  
+  .hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .mission-statement {
+    padding: 40px;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+  .mission-statement h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .feature-section {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .feature-section h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+  }
+  
+  .feature-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: 300px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-content h3 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+  }
+  
+  .team-section {
+    padding: 40px;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+  .team-section h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+  }
+  
+  .team-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .team-card {
+    text-align: center;
+    width: 200px;
+  }
+  
+  .team-image {
+    width: 100%;
+    border-radius: 50%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .testimonials-section {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .testimonials-section h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+  }
+  
+  .testimonial-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .testimonial-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  .social-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .social-links a:hover {
+    text-decoration: underline;
+  }
+  

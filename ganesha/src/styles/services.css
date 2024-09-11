@@ -1,0 +1,69 @@
+/* imageGallery.css */
+
+.image-gallery {
+    padding: 40px;
+    background-color: #f8f9fa;
+  }
+  
+  .image-gallery h2,
+  .image-gallery h3 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .image-grid,
+  .services-grid,
+  .equipment-grid,
+  .work-process-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .image-card,
+  .service-card,
+  .equipment-card,
+  .work-process-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .image-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .image-card:hover,
+  .service-card:hover,
+  .equipment-card:hover,
+  .work-process-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .image-card h4,
+  .service-card h4,
+  .equipment-card h4,
+  .work-process-card h4 {
+    margin-top: 15px;
+    color: #007bff;
+    font-size: 18px;
+  }
+  
+  .image-card p,
+  .service-card p,
+  .equipment-card p,
+  .work-process-card p {
+    color: #666;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
