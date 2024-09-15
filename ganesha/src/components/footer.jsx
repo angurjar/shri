@@ -38,12 +38,12 @@ const Footer = () => {
             <a href="https://facebook.com/yourprofile" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
               <i className="fab fa-facebook-f"></i>
             </a>
-            <a href="https://instagram.com/yourprofile" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <Link to="https://instagram.com/yourprofile" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
               <i className="fab fa-instagram"></i>
-            </a>
-            <a href="https://linkedin.com/company/yourcompany" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            </Link>
+            <Link to="https://linkedin.com/company/yourcompany" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
               <i className="fab fa-linkedin-in"></i>
-            </a>
+            </Link>
           </div>
         </div>
       </div>

@@ -12,6 +12,7 @@ const OurTeam = () => {
         </div>
         {/* Repeat for more team members */}
       </div>
+      our clints , and  eployees, proejct number, area of proejct done
     </div>
   );
 };
